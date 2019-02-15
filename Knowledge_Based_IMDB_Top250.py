@@ -126,3 +126,6 @@ print(build_chart(gen_df).head())
 
 
 
+#Convert the cleaned (non-exploded) dataframe df into a CSV file and save it in the data folder
+#Set parameter index to False as the index of teh DataFrame has no inherent meaning.
+df.to_csv('data/metadata_clean.csv', index=False)

@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33858169-49fa-480d-8f6d-c38d88c08ec9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Knowledge_Based_IMDB_Top250.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/metadata_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot_desc_based.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IMDB_Top250.py" beforeDir="false" afterPath="$PROJECT_DIR$/IMDB_Top250.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Knowledge_Based_IMDB_Top250.py" beforeDir="false" afterPath="$PROJECT_DIR$/Knowledge_Based_IMDB_Top250.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +21,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pandas_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-569">
+            <state>
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -31,8 +32,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IMDB_Top250.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-end-line="8" />
+            <state relative-caret-position="119">
+              <caret line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Knowledge_Based_IMDB_Top250.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="83" column="27" lean-forward="true" selection-start-line="82" selection-start-column="3" selection-end-line="83" selection-end-column="27" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -41,12 +54,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Knowledge_Based_IMDB_Top250.py">
+        <entry file="file://$PROJECT_DIR$/plot_desc_based.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="571">
-              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="765">
+              <caret line="63" column="43" lean-forward="true" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#151#170#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,14 +76,15 @@
         <option value="$PROJECT_DIR$/IMDB_Top250.py" />
         <option value="$PROJECT_DIR$/Knowledge_Based__IMDB_Top250.py" />
         <option value="$PROJECT_DIR$/Knowledge_Based_IMDB_Top250.py" />
+        <option value="$PROJECT_DIR$/plot_desc_based.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1662" />
-    <option name="y" value="-14" />
-    <option name="width" value="1616" />
-    <option name="height" value="1267" />
+    <option name="x" value="539" />
+    <option name="y" value="-7" />
+    <option name="width" value="1623" />
+    <option name="height" value="1274" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -84,6 +98,11 @@
               <item name="Git" type="b2602c69:ProjectViewProjectNode" />
               <item name="Git" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Git" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -96,6 +115,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.templateLanguages.PyTemplateLanguageModulesConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -120,18 +140,19 @@
       <option name="presentableId" value="Default" />
       <updated>1549347445154</updated>
       <workItem from="1549347446626" duration="133000" />
-      <workItem from="1549438493088" duration="9157000" />
+      <workItem from="1549438493088" duration="9757000" />
+      <workItem from="1550184139649" duration="7551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9290000" />
+    <option name="totallyTimeSpent" value="17441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2208" height="1208" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1027907" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15953489" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -145,7 +166,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32961932" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.181987" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -160,7 +181,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pandas_example.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-569">
+        <state>
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -169,8 +190,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/IMDB_Top250.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-end-line="8" />
+        <state relative-caret-position="119">
+          <caret line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -179,10 +200,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Knowledge_Based_IMDB_Top250.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="374">
+          <caret line="83" column="27" lean-forward="true" selection-start-line="82" selection-start-column="3" selection-end-line="83" selection-end-column="27" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plot_desc_based.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="63" column="43" lean-forward="true" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+          <folding>
+            <element signature="e#151#170#0" expanded="true" />
           </folding>
         </state>
       </provider>
